@@ -1,0 +1,5 @@
+redis:
+  image: redis:5-alpine
+  container_name: redis
+  ports:
+    - 6279:6379
